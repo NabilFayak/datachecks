@@ -2,6 +2,14 @@
 
 DataChecks is an AutoML library which Catches and warns of problems with your data and problem setup before modeling.
 
+## Installation 
+
+## Start
+
+## Next Steps
+
+Read more about DataChecks on our [documentation page](#):
+
 ## Support
 
 The EvalML community is happy to provide support to users of EvalML. Project support can be found in four places depending on the type of question:
