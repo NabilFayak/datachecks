@@ -2,6 +2,14 @@
 
 DataChecks is an AutoML library which Catches and warns of problems with your data and problem setup before modeling.
 
+## Support
+
+The EvalML community is happy to provide support to users of EvalML. Project support can be found in four places depending on the type of question:
+1. For usage questions, use [Stack Overflow](#) with the `datachecks` tag.
+2. For bugs, issues, or feature requests start a [Github issue](#).
+3. For discussion regarding development on the core library, use [Slack](#).
+4. For everything else, the core developers can be reached by email at open_source_support@alteryx.com
+
 ## Built at Alteryx
 
 **EvalML** is an open source project built by [Alteryx](https://www.alteryx.com). To see the other open source projects we’re working on visit [Alteryx Open Source](https://www.alteryx.com/open-source). If building impactful data science pipelines is important to you or your business, please get in touch.
