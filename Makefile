@@ -59,10 +59,3 @@ upgradebuild:
 .PHONY: upgradesetuptools
 upgradesetuptools:
 	python -m pip install --upgrade setuptools
-
-.PHONY: package
-package: upgradepip upgradebuild upgradesetuptools
-	python -m build
-	$(eval PACKAGE=$(shell python -c 'import setuptools; setuptools.setup()' --version))
-	tar -zxvf "dist/evalml-${PACKAGE}.tar.gz"
-	mv "evalml-${PACKAGE}" unpacked_sdist
