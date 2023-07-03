@@ -1,6 +1,6 @@
 # DataChecks
 
-DataChecks is an AutoML library which Catches and warns of problems with your data and problem setup before modeling.
+DataChecks is an AutoML library which catches and warns of problems with your data and problem setup before modeling.
 
 ## Installation 
 
