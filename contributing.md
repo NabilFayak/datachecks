@@ -2,7 +2,7 @@
 
 #### 0. Look at Open Issues 
 We currently utilize GitHub Issues as our project management tool for EvalML. Please do the following:
-* Look at our [open issues](https://github.com/alteryx/evalml/issues)
+* Look at our [open issues](#)
 * Find an unclaimed issue by looking for an empty `Assignees` field.
 * If this is your first time contributing, issues labeled ``good first issue`` are a good place to start.
 * If your issue is labeled `needs design` or `spike` it is recommended you provide a design document for your feature
