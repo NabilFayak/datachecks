@@ -2,12 +2,12 @@ import re
 
 import pytest
 
-from evalml.data_checks import (
+from data_checks import (
     DataCheckActionCode,
     DataCheckActionOption,
     DCAOParameterType,
 )
-from evalml.data_checks.data_check_action import DataCheckAction
+from data_checks.data_check_action import DataCheckAction
 
 
 def test_data_check_action_option_attributes(dummy_data_check_name):

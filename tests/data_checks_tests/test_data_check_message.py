@@ -1,6 +1,6 @@
 import pytest
 
-from evalml.data_checks import (
+from data_checks import (
     DataCheckActionCode,
     DataCheckActionOption,
     DataCheckError,
