@@ -1,8 +1,8 @@
 """Recommended action returned by a DataCheck."""
 from enum import Enum
 
-from evalml.data_checks.data_check_action import DataCheckAction
-from evalml.data_checks.data_check_action_code import DataCheckActionCode
+from data_checks.data_check_action import DataCheckAction
+from data_checks.data_check_action_code import DataCheckActionCode
 from evalml.utils import classproperty
 
 
