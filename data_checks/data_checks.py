@@ -2,8 +2,8 @@
 import inspect
 
 from data_checks import DataCheck
-from evalml.exceptions import DataCheckInitError
-from evalml.utils import infer_feature_types
+from exceptions import DataCheckInitError
+from utils import infer_feature_types
 
 
 def _has_defaults_for_all_args(init):

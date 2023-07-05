@@ -3,7 +3,7 @@ from enum import Enum
 
 from data_checks.data_check_action import DataCheckAction
 from data_checks.data_check_action_code import DataCheckActionCode
-from evalml.utils import classproperty
+from utils import classproperty
 
 
 class DataCheckActionOption:

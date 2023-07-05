@@ -7,7 +7,7 @@ from data_checks import (
     DataCheckMessageCode,
     DataCheckWarning,
 )
-from evalml.utils import infer_feature_types
+from utils import infer_feature_types
 
 
 class IDColumnsDataCheck(DataCheck):
