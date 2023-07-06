@@ -52,7 +52,7 @@ from evalml.problem_types import (
     is_regression,
     is_time_series,
 )
-from evalml.utils import infer_feature_types
+from utils import infer_feature_types
 from evalml.utils.cli_utils import get_evalml_black_config
 
 

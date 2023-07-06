@@ -185,9 +185,7 @@ class IDColumnsDataCheck(DataCheck):
             ["Double"],
             ["Integer", "IntegerNullable", "Categorical", "Unknown"],
         ]:
-            # if "Unknown" in types:
-            #     import pdb
-            #     pdb.set_trace()
+
             X_temp = X.ww.select(include=types)
             check_all_unique = X_temp.nunique() == len(X_temp)
             cols_with_all_unique = check_all_unique[
