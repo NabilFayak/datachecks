@@ -1,8 +1,8 @@
 import pandas as pd
 import pytest
 
-from evalml.data_checks.data_check import DataCheck
-from evalml.data_checks.data_check_message import DataCheckError, DataCheckWarning
+from data_checks.data_check import DataCheck
+from data_checks.data_check_message import DataCheckError, DataCheckWarning
 
 
 @pytest.fixture

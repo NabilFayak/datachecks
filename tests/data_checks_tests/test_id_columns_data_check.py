@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from evalml.data_checks import (
+from data_checks import (
     DataCheckActionCode,
     DataCheckActionOption,
     DataCheckMessageCode,
@@ -238,6 +238,7 @@ def test_identified_first_col_primary_key(
         has_primary_key=True,
     )
     id_cols_check = IDColumnsDataCheck(id_threshold=0.95)
+
     assert id_cols_check.validate(X) == [
         DataCheckWarning(
             message="The first column 'col_1_id' is likely to be the primary key",

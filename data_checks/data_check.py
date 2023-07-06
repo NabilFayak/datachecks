@@ -1,7 +1,7 @@
 """Base class for all data checks."""
 from abc import ABC, abstractmethod
 
-from evalml.utils import classproperty
+from utils import classproperty
 
 
 class DataCheck(ABC):

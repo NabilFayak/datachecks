@@ -1,6 +1,6 @@
 import pytest
 
-from evalml.data_checks import DataCheckAction, DataCheckActionCode
+from data_checks import DataCheckAction, DataCheckActionCode
 
 
 def test_data_check_action_attributes(dummy_data_check_name):
