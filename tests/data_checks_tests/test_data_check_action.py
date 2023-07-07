@@ -1,5 +1,4 @@
 import pytest
-
 from data_checks import DataCheckAction, DataCheckActionCode
 
 

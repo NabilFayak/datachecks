@@ -1,5 +1,4 @@
 import pytest
-
 from data_checks import DataCheckActionCode
 from data_checks.utils import handle_data_check_action_code
 from problem_types import ProblemTypes

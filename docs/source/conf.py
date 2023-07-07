@@ -17,10 +17,9 @@ import shutil
 import sys
 from pathlib import Path
 
+import evalml
 from sphinx.domains.python import PythonDomain
 from sphinx.ext.autodoc import Documenter, MethodDocumenter
-
-import evalml
 
 path = os.path.join("..", "..")
 sys.path.insert(0, os.path.abspath(path))

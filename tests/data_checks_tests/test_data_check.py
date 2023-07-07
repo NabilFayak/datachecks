@@ -1,6 +1,5 @@
 import pandas as pd
 import pytest
-
 from data_checks.data_check import DataCheck
 from data_checks.data_check_message import DataCheckError, DataCheckWarning
 

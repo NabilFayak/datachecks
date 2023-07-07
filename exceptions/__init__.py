@@ -2,5 +2,5 @@
 from exceptions.exceptions import (
     DataCheckInitError,
     MissingComponentError,
-    ValidationErrorCode
+    ValidationErrorCode,
 )

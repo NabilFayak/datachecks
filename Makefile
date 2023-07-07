@@ -30,6 +30,8 @@ installdeps:
 installdeps-min:
 	pip install --upgrade pip -q
 	pip install -e . --no-dependencies
+	pip install -r tests/dependency_update_check/minimum_test_requirements.txt
+	pip install -r tests/dependency_update_check/minimum_requirements.txt
 
 .PHONY: installdeps-prophet
 installdeps-prophet:

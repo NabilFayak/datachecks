@@ -1,9 +1,10 @@
 """A collection of data checks."""
 import inspect
 
-from data_checks import DataCheck
 from exceptions import DataCheckInitError
 from utils import infer_feature_types
+
+from data_checks import DataCheck
 
 
 def _has_defaults_for_all_args(init):

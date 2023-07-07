@@ -1,5 +1,7 @@
 """Data check that checks if any of the features are likely to be ID columns."""
 
+from utils import infer_feature_types
+
 from data_checks import (
     DataCheck,
     DataCheckActionCode,
@@ -7,7 +9,6 @@ from data_checks import (
     DataCheckMessageCode,
     DataCheckWarning,
 )
-from utils import infer_feature_types
 
 
 class IDColumnsDataCheck(DataCheck):
@@ -185,7 +186,6 @@ class IDColumnsDataCheck(DataCheck):
             ["Double"],
             ["Integer", "IntegerNullable", "Categorical", "Unknown"],
         ]:
-
             X_temp = X.ww.select(include=types)
             check_all_unique = X_temp.nunique() == len(X_temp)
             cols_with_all_unique = check_all_unique[
