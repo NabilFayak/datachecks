@@ -12,7 +12,7 @@ Read more about DataChecks on our [documentation page](#):
 
 ## Support
 
-The EvalML community is happy to provide support to users of EvalML. Project support can be found in four places depending on the type of question:
+The DataChecks community is happy to provide support to users of DataChecks. Project support can be found in four places depending on the type of question:
 1. For usage questions, use [Stack Overflow](#) with the `datachecks` tag.
 2. For bugs, issues, or feature requests start a [Github issue](#).
 3. For discussion regarding development on the core library, use [Slack](#).
@@ -20,7 +20,7 @@ The EvalML community is happy to provide support to users of EvalML. Project sup
 
 ## Built at Alteryx
 
-**EvalML** is an open source project built by [Alteryx](https://www.alteryx.com). To see the other open source projects we’re working on visit [Alteryx Open Source](https://www.alteryx.com/open-source). If building impactful data science pipelines is important to you or your business, please get in touch.
+**DataChecks** is an open source project built by [Alteryx](https://www.alteryx.com). To see the other open source projects we’re working on visit [Alteryx Open Source](https://www.alteryx.com/open-source). If building impactful data science pipelines is important to you or your business, please get in touch.
 
 <p align="center">
   <a href="https://www.alteryx.com/open-source">

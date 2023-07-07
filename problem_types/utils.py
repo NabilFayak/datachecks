@@ -1,4 +1,4 @@
-"""Utility methods for the ProblemTypes enum in EvalML."""
+"""Utility methods for the ProblemTypes enum in DataChecks."""
 import pandas as pd
 from pandas.api.types import is_numeric_dtype
 
@@ -74,7 +74,7 @@ def is_regression(problem_type):
     """Determines if the provided problem_type is a regression problem type.
 
     Args:
-        problem_type (str or ProblemTypes): type of supervised learning problem. See evalml.problem_types.ProblemType.all_problem_types for a full list.
+        problem_type (str or ProblemTypes): type of supervised learning problem. See datachecks.problem_types.ProblemType.all_problem_types for a full list.
 
     Returns:
         bool: Whether or not the provided problem_type is a regression problem type.
@@ -94,7 +94,7 @@ def is_binary(problem_type):
     """Determines if the provided problem_type is a binary classification problem type.
 
     Args:
-        problem_type (str or ProblemTypes): type of supervised learning problem. See evalml.problem_types.ProblemType.all_problem_types for a full list.
+        problem_type (str or ProblemTypes): type of supervised learning problem. See datachecks.problem_types.ProblemType.all_problem_types for a full list.
 
     Returns:
         bool: Whether or not the provided problem_type is a binary classification problem type.
@@ -114,7 +114,7 @@ def is_multiclass(problem_type):
     """Determines if the provided problem_type is a multiclass classification problem type.
 
     Args:
-        problem_type (str or ProblemTypes): type of supervised learning problem. See evalml.problem_types.ProblemType.all_problem_types for a full list.
+        problem_type (str or ProblemTypes): type of supervised learning problem. See datachecks.problem_types.ProblemType.all_problem_types for a full list.
 
     Returns:
         bool: Whether or not the provided problem_type is a multiclass classification problem type.
@@ -134,7 +134,7 @@ def is_classification(problem_type):
     """Determines if the provided problem_type is a classification problem type.
 
     Args:
-        problem_type (str or ProblemTypes): type of supervised learning problem. See evalml.problem_types.ProblemType.all_problem_types for a full list.
+        problem_type (str or ProblemTypes): type of supervised learning problem. See datachecks.problem_types.ProblemType.all_problem_types for a full list.
 
     Returns:
         bool: Whether or not the provided problem_type is a classification problem type.
@@ -151,7 +151,7 @@ def is_time_series(problem_type):
     """Determines if the provided problem_type is a time series problem type.
 
     Args:
-        problem_type (str or ProblemTypes): type of supervised learning problem. See evalml.problem_types.ProblemType.all_problem_types for a full list.
+        problem_type (str or ProblemTypes): type of supervised learning problem. See datachecks.problem_types.ProblemType.all_problem_types for a full list.
 
     Returns:
         bool: Whether or not the provided problem_type is a time series problem type.

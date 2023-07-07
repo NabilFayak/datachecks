@@ -1,4 +1,4 @@
-"""Utility methods for the data checks in EvalML."""
+"""Utility methods for the data checks in DataChecks."""
 from data_checks.data_check_action_code import DataCheckActionCode
 
 

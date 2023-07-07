@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Create a bug report to help us improve EvalML
+about: Create a bug report to help us improve DataChecks
 title: ''
 labels: 'bug'
 assignees: ''
