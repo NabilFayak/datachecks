@@ -2,7 +2,7 @@
 import pandas as pd
 from pandas.api.types import is_numeric_dtype
 
-from problem_types.problem_types import ProblemTypes
+from datachecks.problem_types.problem_types import ProblemTypes
 
 
 def handle_problem_types(problem_type):

@@ -1,7 +1,7 @@
 """Recommended action returned by a DataCheck."""
 
-from data_checks.data_check_action_code import DataCheckActionCode
-from data_checks.utils import handle_data_check_action_code
+from datachecks.data_checks.data_check_action_code import DataCheckActionCode
+from datachecks.data_checks.utils import handle_data_check_action_code
 
 
 class DataCheckAction:

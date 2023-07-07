@@ -1,5 +1,5 @@
 """Messages returned by a DataCheck, tagged by name."""
-from data_checks.data_check_message_type import DataCheckMessageType
+from datachecks.data_checks.data_check_message_type import DataCheckMessageType
 
 
 class DataCheckMessage:

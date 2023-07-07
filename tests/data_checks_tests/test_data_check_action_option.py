@@ -1,12 +1,13 @@
 import re
 
 import pytest
-from data_checks import (
+
+from datachecks.data_checks import (
     DataCheckActionCode,
     DataCheckActionOption,
     DCAOParameterType,
 )
-from data_checks.data_check_action import DataCheckAction
+from datachecks.data_checks.data_check_action import DataCheckAction
 
 
 def test_data_check_action_option_attributes(dummy_data_check_name):

@@ -1,5 +1,5 @@
 """Exceptions used in DataChecks."""
-from exceptions.exceptions import (
+from datachecks.exceptions.exceptions import (
     DataCheckInitError,
     MissingComponentError,
     ValidationErrorCode,
