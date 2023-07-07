@@ -10,7 +10,7 @@ Release Notes
     * Documentation Changes
     * Testing Changes
 
-**v0.1.1 July 6, 2023**
+**v0.1.2 July 6, 2023**
 
 * Enhancements
     * Transfer over base data checks and "IDColumnData Checks" from the EvalML repo :pr:`1`
