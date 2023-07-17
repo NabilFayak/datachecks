@@ -1,1 +1,4 @@
 datachecks
+docs
+tests
+tools

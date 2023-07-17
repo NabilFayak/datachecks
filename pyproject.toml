@@ -11,6 +11,7 @@ dependencies = [
     "pandas>=1.5.0",
     "woodwork[dask]>=0.22.0",
     "click>=8.0.0",
+    "black[jupyter]>=22.3.0",
 ]
 requires-python = ">=3.8,<3.10"
 readme = "README.md"
@@ -31,7 +32,10 @@ docs = [
 ]
 dev = [
     "ruff==0.0.228",
-    "black==23.3.0",
+]
+test = [
+    "pytest==7.1.2",
+    "coverage[toml]>=6.4",
 ]
 
 [tool.setuptools]
@@ -84,6 +88,18 @@ known-first-party = ["checkmate"]
 
 [tool.ruff.pydocstyle]
 convention = "google"
+
+[tool.coverage.run]
+source = ["checkmate"]
+
+[tool.coverage.report]
+exclude_lines =[
+    "pragma: no cover",
+    "raise AssertionError",
+    "if __name__ == .__main__.:",
+    "if profile:",
+    "pytest.skip"
+]
 
 [build-system]
 requires = ["setuptools>=61", "wheel"]

@@ -7,7 +7,8 @@ License: BSD-3-Clause
 Requires-Python: <3.10,>=3.8
 Description-Content-Type: text/markdown
 Provides-Extra: docs
-License-File: LICENSE.txt
+Provides-Extra: dev
+Provides-Extra: test
 
 # DataChecks
 
