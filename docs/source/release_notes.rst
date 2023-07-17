@@ -5,10 +5,12 @@ Release Notes
         * Added in github workflows that are relevant to DataChecks, from EvalML repository, and modified to fit DataChecks wherever possible :pr:`2`
         * Implemented linters and have them successfully running :pr:`2`
     * Fixes
+        * Workflows are now up and running properly
     * Changes
         * Updated comments to reflect DataChecks repository :pr:`2`
     * Documentation Changes
     * Testing Changes
+        * Removed integration testing due to irrelevance with base datachecks and id column data check
 
 **v0.1.2 July 6, 2023**
 
