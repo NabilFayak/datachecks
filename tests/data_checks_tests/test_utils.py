@@ -1,7 +1,7 @@
 import pytest
 
 from datachecks.data_checks import DataCheckActionCode
-from datachecks.data_checks.utils import handle_data_check_action_code
+from datachecks.data_checks.datacheck_meta.utils import handle_data_check_action_code
 from datachecks.problem_types import ProblemTypes
 
 

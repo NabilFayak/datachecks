@@ -7,7 +7,7 @@ from datachecks.data_checks import (
     DataCheckActionOption,
     DCAOParameterType,
 )
-from datachecks.data_checks.data_check_action import DataCheckAction
+from datachecks.data_checks.datacheck_meta.data_check_action import DataCheckAction
 
 
 def test_data_check_action_option_attributes(dummy_data_check_name):
