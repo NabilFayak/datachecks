@@ -1,4 +1,0 @@
-datachecks
-docs
-tests
-tools
