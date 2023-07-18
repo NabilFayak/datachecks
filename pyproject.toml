@@ -9,11 +9,11 @@ authors = [
 dependencies = [
     "numpy<=1.23.5,>=1.21.0",
     "pandas>=1.5.0",
-    "woodwork[dask]>=0.22.0",
+    "woodwork>=0.22.0",
     "click>=8.0.0",
     "black[jupyter]>=22.3.0",
 ]
-requires-python = ">=3.8,<3.10"
+requires-python = ">=3.8,<4.0"
 readme = "README.md"
 license = {text = "BSD-3-Clause"}
 
@@ -104,3 +104,13 @@ exclude_lines =[
 [build-system]
 requires = ["setuptools>=61", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests/*"
+]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+    "ignore::PendingDeprecationWarning"
+]
+junit_duration_report = "call"
