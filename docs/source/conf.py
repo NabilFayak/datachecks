@@ -17,7 +17,7 @@ import shutil
 import sys
 from pathlib import Path
 
-import evalml
+import datachecks
 from sphinx.domains.python import PythonDomain
 from sphinx.ext.autodoc import Documenter, MethodDocumenter
 
@@ -27,14 +27,14 @@ sys.path.insert(0, os.path.abspath(path))
 
 # -- Project information -----------------------------------------------------
 
-project = "EvalML"
-copyright = "2020, Alteryx, Inc."
+project = "CheckMate"
+copyright = "2023, Alteryx, Inc."
 author = "Alteryx, Inc."
 
 # The short X.Y version
-version = evalml.__version__
+version = datachecks.__version__
 # The full version, including alpha/beta/rc tags
-release = evalml.__version__
+release = datachecks.__version__
 
 
 # -- General configuration ---------------------------------------------------
@@ -59,8 +59,8 @@ extensions = [
     "myst_parser",
 ]
 
-autoapi_dirs = ["../../evalml"]
-autoapi_ignore = ["*/evalml/tests/*"]
+autoapi_dirs = ["../../datachecks"]
+autoapi_ignore = ["*/tests/*"]
 autoapi_options = [
     "members",
     "undoc-members",
@@ -113,7 +113,7 @@ html_theme_options = {
     "icon_links": [
         {
             "name": "GitHub",
-            "url": "https://github.com/alteryx/evalml",
+            "url": "https://github.com/alteryx/checkmate",
             "icon": "fab fa-github-square",
             "type": "fontawesome",
         },
@@ -131,7 +131,7 @@ html_theme_options = {
         },
         {
             "name": "StackOverflow",
-            "url": "https://stackoverflow.com/questions/tagged/evalml",
+            "url": "https://stackoverflow.com/questions/tagged/checkmate",
             "icon": "fab fa-stack-overflow",
             "type": "fontawesome",
         },
@@ -142,7 +142,7 @@ html_theme_options = {
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = "images/evalml_horizontal.svg"
+html_logo = "images/#"
 
 # The name of an image file (relative to this directory) to use as a favicon of
 # the docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
@@ -183,7 +183,7 @@ mathjax2_config = {
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "EvalMLdoc"
+htmlhelp_basename = "CheckMatedoc"
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -207,7 +207,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, "EvalML.tex", "EvalML Documentation", author, "manual"),
+    (master_doc, "CheckMate.tex", "CheckMate Documentation", author, "manual"),
 ]
 
 
@@ -215,7 +215,7 @@ latex_documents = [
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [(master_doc, "evalml", "EvalML Documentation", [author], 1)]
+man_pages = [(master_doc, "checkmate", "CheckMate Documentation", [author], 1)]
 
 
 # -- Options for Texinfo output ----------------------------------------------
@@ -226,10 +226,10 @@ man_pages = [(master_doc, "evalml", "EvalML Documentation", [author], 1)]
 texinfo_documents = [
     (
         master_doc,
-        "EvalML",
-        "EvalML Documentation",
+        "CheckMate",
+        "CheckMate Documentation",
         author,
-        "EvalML",
+        "CheckMate",
         "One line description of project.",
         "Miscellaneous",
     ),
@@ -257,8 +257,8 @@ epub_exclude_files = ["search.html"]
 
 # If evalml is open-sourced: replace github specific style.css
 extlinks = {
-    "issue": ("https://github.com/alteryx/evalml/issues/%s", "#"),
-    "pr": ("https://github.com/alteryx/evalml/pull/%s", "#"),
+    "issue": ("https://github.com/alteryx/checkmate/issues/%s", "#"),
+    "pr": ("https://github.com/alteryx/checkmate/pull/%s", "#"),
     "user": ("https://github.com/%s", "@"),
 }
 
@@ -281,7 +281,7 @@ class AccessorLevelDocumenter(Documenter):
     """
 
     def resolve_name(self, modname, parents, path, base):
-        modname = "evalml"
+        modname = "checkmate"
         mod_cls = path.rstrip(".")
         mod_cls = mod_cls.split(".")
         return modname, mod_cls + [base]
