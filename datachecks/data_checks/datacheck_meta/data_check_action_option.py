@@ -2,7 +2,9 @@
 from enum import Enum
 
 from datachecks.data_checks.datacheck_meta.data_check_action import DataCheckAction
-from datachecks.data_checks.datacheck_meta.data_check_action_code import DataCheckActionCode
+from datachecks.data_checks.datacheck_meta.data_check_action_code import (
+    DataCheckActionCode,
+)
 from datachecks.utils import classproperty
 
 
