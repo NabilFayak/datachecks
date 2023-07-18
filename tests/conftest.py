@@ -14,9 +14,11 @@ def pytest_configure(config):
         "skip_during_conda: mark test to be skipped if running during conda build",
     )
 
+
 @pytest.fixture
 def dummy_data_check_name():
     return "dummy_data_check_name"
+
 
 @pytest.fixture
 def get_test_data_with_or_without_primary_key():
@@ -96,6 +98,7 @@ def get_test_data_with_or_without_primary_key():
         return X
 
     return _get_test_data_with_primary_key
+
 
 @pytest.fixture
 def X_y_binary():

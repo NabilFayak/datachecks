@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from data_checks import (
+from datachecks.data_checks import (
     DataCheckActionCode,
     DataCheckActionOption,
     DataCheckMessageCode,

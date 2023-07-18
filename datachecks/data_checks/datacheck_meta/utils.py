@@ -1,5 +1,7 @@
-"""Utility methods for the data checks in EvalML."""
-from data_checks.data_check_action_code import DataCheckActionCode
+"""Utility methods for the data checks in DataChecks."""
+from datachecks.data_checks.datacheck_meta.data_check_action_code import (
+    DataCheckActionCode,
+)
 
 
 def handle_data_check_action_code(action_code):
